@@ -24,3 +24,9 @@ void swap_max(int arr[],int l,int pos) {
 		arr[index]=j;
 	}
 }
+
+void ssort(int arr[],int l) {
+	for(int i=0;i<l;i++)
+		swap_max(arr,9,i);
+
+}
